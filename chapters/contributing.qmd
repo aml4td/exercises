@@ -1,0 +1,55 @@
+# Contributing {.unlisted .unnumbered}
+
+
+
+## Contributor List
+
+```{r}
+#| label: contrib-list
+#| include: false
+use_tidy_contrib <- function (repo_spec = NULL, from = NULL, to = NULL) {
+  require("usethis")
+  require("rlang")
+  repo_spec <- repo_spec %||% usethis:::target_repo_spec()
+  parsed_repo_spec <- usethis:::parse_repo_url(repo_spec)
+  repo_spec <- parsed_repo_spec$repo_spec
+  if (!is.null(parsed_repo_spec$host)) {
+    withr::local_envvar(c(GITHUB_API_URL = parsed_repo_spec$host))
+  }
+  if (is.null(to)) {
+    from <- from %||% usethis:::releases(repo_spec)[[1]]
+  }
+  from_timestamp <- usethis:::as_timestamp(repo_spec, x = from) %||%
+    "2008-01-01"
+  to_timestamp <- usethis:::as_timestamp(repo_spec, x = to)
+  res <-
+    gh::gh(
+      "/repos/{owner}/{repo}/issues",
+      owner = usethis:::spec_owner(repo_spec),
+      repo = usethis:::spec_repo(repo_spec),
+      since = from_timestamp,
+      state = "all",
+      filter = "all",
+      .limit = Inf
+    )
+  creation_time <- function(x) {
+    as.POSIXct(purrr::map_chr(x, "created_at"))
+  }
+  res <- res[creation_time(res) >= as.POSIXct(from_timestamp)]
+  if (!is.null(to_timestamp)) {
+    res <- res[creation_time(res) <= as.POSIXct(to_timestamp)]
+  }
+  contributors <- sort(unique(purrr::map_chr(res, c("user", "login"))))
+  
+  contributors <- contributors[!(contributors %in% c("topepo"))]
+  
+  contrib_link <- glue::glue("[&#x0040;{contributors}](https://github.com/{contributors})")
+  contrib_markup <- glue::glue_collapse(contrib_link, sep = ", ", last = ", and ") +
+    glue::glue(".")
+  contrib_markup
+}
+
+contribs <- use_tidy_contrib()
+```
+
+The would like to thank users who have made a contribution to the project: `r contribs`

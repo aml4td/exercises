@@ -1,0 +1,60 @@
+# The Whole Game {#sec-whole-game}
+
+::: {#exr-delivery-metrics}
+
+# Deliveries - Optimizing different Metrics
+
+<br>
+
+For the three models, measure: 
+
+ - The root mean squared error (RMSE) and 
+ - Coefficient of determination (a.k.a. $R^2$). 
+
+Would you have picked a different tuning parameter value for the neural network?
+
+Do the models rank differently? 
+
+:::
+
+<br>
+
+::: {#exr-delivery-outcome-transformations}
+
+# Deliveries - Transforming the outcome
+
+<br>
+
+Determine a better scale for the outcome data to make its distribution more symmetric. 
+
+Do you see a benefit in performance? How do you quantify that? 
+:::
+
+<br>
+
+::: {#exr-delivery-wntd-calibration}
+
+# Deliveries - What Not to Do - Calibration Edition
+
+<br>
+
+Re-predict the training set and use those values to estimate the calibration. 
+
+If you apply the calibration to the training set, what is the MAE? 
+
+How does that compare to the MAE values shown in the website's analysis? Which do you think is correct and why? 
+:::
+
+
+<br>
+
+::: {#exr-delivery-tune-cubist}
+
+# Deliveries - Tuning Cubist
+
+<br>
+
+We (arbitrarily) decided to use a 100-member ensemble in the materials. 
+
+Like the neural network, try tuning the model across the ensemble size and determine if any size seems better than others (in terms of MAE). 
+:::
