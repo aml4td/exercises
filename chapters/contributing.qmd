@@ -1,5 +1,10 @@
 # Contributing {.unlisted .unnumbered}
 
+We are interested in applied exercises (not proofs or maths). If there is a new data set, please add it as long as it has a licence that we can use. Otherwise, you can direct people to the source (so that we are not distributing it).
+
+If you just want to fix a typo, you can make a pull request to alter the appropriate `.qmd` file. 
+
+Please feel free to improve the quality of this content by submitting **pull requests**. A merged PR will make you appear in the contributor list. It will, however, be considered a donation of your work to this project. You are still bound by the conditions of the license, meaning that you are **not considered an author, copyright holder, or owner** of the content once it has been merged in.
 
 
 ## Contributor List

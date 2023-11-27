@@ -1,8 +1,7 @@
 {
-  "hash": "23e7d4b1cb292d9d1dbb11ea0ed97e29",
+  "hash": "54dcf7980448d251d4459e9cc4b4c46b",
   "result": {
-    "engine": "knitr",
-    "markdown": "# Contributing {.unlisted .unnumbered}\n\n\n\n## Contributor List\n\n\n\n\n\nThe would like to thank users who have made a contribution to the project: \n",
+    "markdown": "# Contributing {.unlisted .unnumbered}\n\nWe are interested in applied exercises (not proofs or maths). If there is a new data set, please add it as long as it has a licence that we can use. Otherwise, you can direct people to the source (so that we are not distributing it).\n\nIf you just want to fix a typo, you can make a pull request to alter the appropriate `.qmd` file. \n\nPlease feel free to improve the quality of this content by submitting **pull requests**. A merged PR will make you appear in the contributor list. It will, however, be considered a donation of your work to this project. You are still bound by the conditions of the license, meaning that you are **not considered an author, copyright holder, or owner** of the content once it has been merged in.\n\n\n## Contributor List\n\n\n\n\n\nThe would like to thank users who have made a contribution to the project: \n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
