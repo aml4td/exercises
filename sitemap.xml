@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aml4td.org/index.html</loc>
-    <lastmod>2023-11-28T23:06:33.899Z</lastmod>
+    <lastmod>2023-11-28T23:21:53.029Z</lastmod>
   </url>
   <url>
     <loc>https://aml4td.org/chapters/news.html</loc>
-    <lastmod>2023-11-28T23:09:11.409Z</lastmod>
+    <lastmod>2023-11-28T23:12:09.049Z</lastmod>
   </url>
   <url>
     <loc>https://aml4td.org/chapters/contributing.html</loc>
-    <lastmod>2023-11-27T01:49:24.471Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aml4td.org/chapters/whole-game.html</loc>
-    <lastmod>2023-11-28T23:08:19.483Z</lastmod>
+    <lastmod>2023-11-28T23:12:09.049Z</lastmod>
   </url>
   <url>
     <loc>https://aml4td.org/chapters/introduction.html</loc>
-    <lastmod>2023-11-28T23:05:44.387Z</lastmod>
+    <lastmod>2023-11-28T23:12:09.049Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aml4td.org/chapters/whole-game.html</loc>
+    <lastmod>2023-11-28T23:12:09.050Z</lastmod>
   </url>
 </urlset>

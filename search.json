@@ -24,7 +24,7 @@
     "href": "index.html#are-there-solutions",
     "title": "Exercises",
     "section": "Are There Solutions?",
-    "text": "Are There Solutions?\nNot yet. We’re not sure how to share them without being the “Solutions Cops” or making them frely available (and not great for classes).",
+    "text": "Are There Solutions?\nNot yet.\nWe’re unsure how to share them without being the “Solutions Cops” or making them freely available (which is not great for classes).",
     "crumbs": [
       "Preface"
     ]
@@ -70,16 +70,6 @@
     ]
   },
   {
-    "objectID": "chapters/whole-game.html",
-    "href": "chapters/whole-game.html",
-    "title": "2  The Whole Game",
-    "section": "",
-    "text": "The exercises for this chapter only uses the food delivery data.\n\nExercise 2.1  \n\nDeliveries - Optimizing different Metrics\nFor the three models, also measure:\n\nThe root mean squared error (RMSE) and\nCoefficient of determination (a.k.a. \\(R^2\\)).\n\nWould you have picked a different tuning parameter value for the neural network?\nDo the models rank differently?\n\n\n\nExercise 2.2  \n\nDeliveries - Transforming the outcome\nDetermine a better scale for the outcome data to make its distribution more symmetric.\nDo you see a benefit in performance? How do you quantify that?\n\n\n\nExercise 2.3  \n\nDeliveries - What Not to Do: Calibration Edition\nRe-predict the training set and use those values to estimate the calibration.\nIf you apply the calibration to the training set, what is the MAE?\nHow does that compare to the MAE values shown in the website’s analysis? Which do you think is correct and why?\n\n\n\nExercise 2.4  \n\nDeliveries - Tuning Cubist\nWe (arbitrarily) decided to use a 100-member ensemble in the materials.\nLike the neural network, try tuning the model across the ensemble size and determine if any size seems better than others (in terms of MAE).",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>The Whole Game</span>"
-    ]
-  },
-  {
     "objectID": "chapters/introduction.html",
     "href": "chapters/introduction.html",
     "title": "1  Introduction",
@@ -87,6 +77,16 @@
     "text": "There are currently no exercises for this chapter.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/whole-game.html",
+    "href": "chapters/whole-game.html",
+    "title": "2  The Whole Game",
+    "section": "",
+    "text": "The exercises for this chapter only uses the food delivery data.\n\nExercise 2.1  \n\nDeliveries - Optimizing different Metrics\nFor the three models, also measure:\n\nThe root mean squared error (RMSE) and\nCoefficient of determination (a.k.a. \\(R^2\\)).\n\nWould you have picked a different tuning parameter value for the neural network?\nDo the models rank differently?\n\n\n\nExercise 2.2  \n\nDeliveries - Transforming the outcome\nDetermine a better scale for the outcome data to make its distribution more symmetric.\nDo you see a benefit in performance? How do you quantify that?\n\n\n\nExercise 2.3  \n\nDeliveries - What Not to Do: Calibration Edition\nRe-predict the training set and use those values to estimate the calibration.\nIf you apply the calibration to the training set, what is the MAE?\nHow does that compare to the MAE values shown in the website’s analysis? Which do you think is correct and why?\n\n\n\nExercise 2.4  \n\nDeliveries - Tuning Cubist\nWe (arbitrarily) decided to use a 100-member ensemble in the materials.\nLike the neural network, try tuning the model across the ensemble size and determine if any size seems better than others (in terms of MAE).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>The Whole Game</span>"
     ]
   }
 ]
