@@ -6,7 +6,7 @@ The exercises for this chapter only uses the food delivery data.
 
 ::: {.exercise-content}
 
-#### _Deliveries_ - Optimizing different Metrics
+#### _Deliveries_ - Optimizing different Metrics {.unnumbered}
 
 For the three models, also measure: 
 
@@ -27,7 +27,7 @@ Do the models rank differently?
 
 ::: {.exercise-content}
 
-#### _Deliveries_ - Transforming the outcome
+#### _Deliveries_ - Transforming the outcome {.unnumbered}
 
 Determine a better scale for the outcome data to make its distribution more symmetric. 
 
@@ -42,7 +42,7 @@ Do you see a benefit in performance? How do you quantify that?
 
 ::: {.exercise-content}
 
-#### _Deliveries_ - What Not to Do: Calibration Edition
+#### _Deliveries_ - What Not to Do: Calibration Edition {.unnumbered}
 
 Re-predict the training set and use those values to estimate the calibration. 
 
@@ -59,7 +59,7 @@ How does that compare to the MAE values shown in the website's analysis? Which d
 
 ::: {.exercise-content}
 
-#### _Deliveries_ - Tuning Cubist
+#### _Deliveries_ - Tuning Cubist {.unnumbered}
 
 We (arbitrarily) decided to use a 100-member ensemble in the materials. 
 

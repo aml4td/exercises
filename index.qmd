@@ -1,6 +1,8 @@
-
 # Preface  {.unnumbered}
 
+Welcome! Machine learning is a practiced art. We've created a set of applied exercises for each chapter that can help readers learn more by working with different data sets. 
+
+They are organized by chapter and, within the chapter, by the data set.  
 
 ## License {.unnumbered}
 

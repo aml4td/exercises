@@ -6,4 +6,6 @@ No reported edits (yet).
 
 ## Changelog {.unlisted .unnumbered}
 
+### 2023-11-28  {.unlisted .unnumbered}
 
+First deployment. 
