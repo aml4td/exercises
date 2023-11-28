@@ -16,7 +16,9 @@ This license requires that reusers give credit to the creator. It allows reusers
 
 ## Are There Solutions? 
 
-Not yet. We're not sure how to share them without being the "Solutions Cops" or making them frely available (and not great for classes). 
+Not yet. 
+
+We're unsure how to share them without being the "Solutions Cops" or making them freely available (which is not great for classes).  
 
 ## Can I contribute?  {.unnumbered}
 
