@@ -22,7 +22,9 @@ execute:
   # warning: false
   echo: false
 
-
+resources:
+  - CNAME
+  
 ## Define book style and declare qmd files to process
 book:
   title: "Exercises"
